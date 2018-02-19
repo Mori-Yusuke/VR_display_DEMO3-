@@ -1,0 +1,126 @@
+Mikoto Motion Ver 2
+Motion {
+	name = "motion"
+	endframe = 60
+	loop = 0
+	Vector {
+		name = "j_bone_body"
+		class = "Locate"
+		member = "pos"
+		curve = "spline"
+		0 (0.000000 97.005287 21.302597)
+	}
+	Quaternion {
+		name = "bone_body"
+		class = "Bone"
+		member = "rot"
+		curve = "spline"
+		0 (0.000000 -0.707107 -0.707107 0.000000)
+	}
+	Quaternion {
+		name = "bone_head"
+		class = "Bone"
+		member = "rot"
+		curve = "spline"
+		0 (-0.026880 0.000000 0.000000 -0.999639)
+	}
+	Quaternion {
+		name = "bone_arm_1[L]"
+		class = "Bone"
+		member = "rot"
+		curve = "spline"
+		0 (0.497935 -0.546296 -0.493806 0.458014)
+	}
+	Quaternion {
+		name = "bone_arm_2[L]"
+		class = "Bone"
+		member = "rot"
+		curve = "spline"
+		0 (-0.007043 0.014156 -0.031719 0.999372)
+	}
+	Quaternion {
+		name = "bone_hand[L]"
+		class = "Bone"
+		member = "rot"
+		curve = "spline"
+		0 (-0.020546 -0.035889 0.048929 0.997946)
+	}
+	Quaternion {
+		name = "bone_arm_1[R]"
+		class = "Bone"
+		member = "rot"
+		curve = "spline"
+		0 (-0.497935 -0.546296 -0.493806 -0.458014)
+	}
+	Quaternion {
+		name = "bone_arm_2[R]"
+		class = "Bone"
+		member = "rot"
+		curve = "spline"
+		0 (-0.007043 -0.014156 0.031719 0.999372)
+	}
+	Quaternion {
+		name = "bone_hand[R]"
+		class = "Bone"
+		member = "rot"
+		curve = "spline"
+		0 (-0.020546 0.035889 -0.048929 0.997946)
+	}
+	Quaternion {
+		name = "bone_waist"
+		class = "Bone"
+		member = "rot"
+		curve = "spline"
+		0 (0.663906 0.000000 0.000000 0.747816)
+	}
+	Quaternion {
+		name = "bone_foot_1[L]"
+		class = "Bone"
+		member = "rot"
+		curve = "spline"
+		0 (0.146743 0.118412 -0.030916 0.981575)
+	}
+	Quaternion {
+		name = "bone_foot_2[L]"
+		class = "Bone"
+		member = "rot"
+		curve = "spline"
+		0 (0.112238 0.014889 0.002402 0.993567)
+	}
+	Quaternion {
+		name = "bone_foot_3[L]"
+		class = "Bone"
+		member = "rot"
+		curve = "spline"
+		0 (0.015310 -0.652195 -0.757877 0.005378)
+	}
+	Quaternion {
+		name = "bone_foot_1[R]"
+		class = "Bone"
+		member = "rot"
+		curve = "spline"
+		0 (0.146744 -0.118411 0.030914 0.981575)
+	}
+	Quaternion {
+		name = "bone_foot_2[R]"
+		class = "Bone"
+		member = "rot"
+		curve = "spline"
+		0 (0.112238 -0.014889 -0.002402 0.993567)
+	}
+	Quaternion {
+		name = "bone_foot_3[R]"
+		class = "Bone"
+		member = "rot"
+		curve = "spline"
+		0 (-0.015310 -0.652195 -0.757877 -0.005375)
+	}
+	Quaternion {
+		name = "bone_tail"
+		class = "Bone"
+		member = "rot"
+		curve = "spline"
+		0 (0.000000 -0.652327 0.757938 0.000000)
+	}
+}
+Eof

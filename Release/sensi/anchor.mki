@@ -1,0 +1,283 @@
+Mikoto Intermediate Ver 1
+
+Character {
+	name = "04.mqo"
+	coordinate = "04.mqo"
+	Skelton {
+		name = "unknown"
+		Locate {
+			name = "j_bone14"
+			spos = ( 0.000000, 97.453590, 67.054390)
+			pos = ( 0.000000, 97.453583, 67.054382)
+		}
+		Bone {
+			name = "bone14"
+			srot = ( 1.000000, 0.000000, 0.000000, -0.000557)
+			rot = ( -1.000000, 0.000000, 0.000000, -0.000557)
+			start = "j_bone14"
+			end = "j_bone"
+		}
+		Locate {
+			name = "j_bone"
+			coordinate = "bone14"
+			spos = ( 0.000000, -0.000008, 36.710629)
+			pos = ( 0.000000, -0.000008, 36.710632)
+		}
+		Bone {
+			name = "bone"
+			coordinate = "bone14"
+			srot = ( 0.000000, 0.728153, 0.685414, 0.000000)
+			rot = ( 0.000000, -0.685820, 0.727771, 0.000000)
+			start = "j_bone"
+			end = "site_bone"
+		}
+		Locate {
+			name = "site_bone"
+			coordinate = "bone"
+			spos = ( 0.000000, 0.000008, 29.759392)
+			pos = ( 0.000000, 0.000008, 29.759392)
+		}
+		Locate {
+			name = "j_bone08"
+			coordinate = "bone"
+			spos = ( 17.341108, -0.011436, 29.874893)
+			pos = ( 17.341108, -0.011436, 29.874893)
+		}
+		Locate {
+			name = "j_bone09"
+			coordinate = "bone"
+			spos = ( -17.341108, -0.011436, 29.874893)
+			pos = ( -17.341108, -0.011436, 29.874893)
+		}
+		Locate {
+			name = "j_bone15"
+			coordinate = "bone"
+			spos = ( 0.000000, 0.239189, 35.636177)
+			pos = ( 0.000000, 0.239189, 35.636177)
+		}
+		Bone {
+			name = "bone08"
+			coordinate = "bone"
+			srot = ( -0.001810, 0.706983, -0.001767, 0.707226)
+			rot = ( -0.485863, -0.516210, -0.483425, -0.513581)
+			start = "j_bone08"
+			end = "j_bone10"
+		}
+		Locate {
+			name = "j_bone10"
+			coordinate = "bone08"
+			spos = ( 0.000000, 0.000000, 27.634562)
+			pos = ( 0.000000, -0.000008, 27.634562)
+		}
+		Bone {
+			name = "bone10"
+			coordinate = "bone08"
+			srot = ( -0.000025, 0.707021, -0.000179, 0.707192)
+			rot = ( -0.002385, -0.000051, 0.000139, 0.999997)
+			start = "j_bone10"
+			end = "j_bone12"
+		}
+		Locate {
+			name = "j_bone12"
+			coordinate = "bone10"
+			spos = ( -0.000004, 0.000008, 25.254200)
+			pos = ( -0.000008, -0.000008, 25.254192)
+		}
+		Bone {
+			name = "bone12"
+			coordinate = "bone10"
+			srot = ( 0.000860, 0.706878, 0.001072, 0.707335)
+			rot = ( -0.001511, 0.000202, -0.000258, 0.999999)
+			start = "j_bone12"
+			end = "site_bone12"
+		}
+		Locate {
+			name = "site_bone12"
+			coordinate = "bone12"
+			spos = ( 0.000013, 0.000031, 45.454720)
+			pos = ( 0.000013, 0.000031, 45.454720)
+		}
+		Bone {
+			name = "bone09"
+			coordinate = "bone"
+			srot = ( -0.001810, -0.706983, 0.001767, 0.707226)
+			rot = ( 0.485863, -0.516210, -0.483425, 0.513581)
+			start = "j_bone09"
+			end = "j_bone11"
+		}
+		Locate {
+			name = "j_bone11"
+			coordinate = "bone09"
+			spos = ( 0.000000, 0.000000, 27.634562)
+			pos = ( 0.000000, -0.000008, 27.634562)
+		}
+		Bone {
+			name = "bone11"
+			coordinate = "bone09"
+			srot = ( -0.000025, -0.707021, 0.000179, 0.707192)
+			rot = ( -0.002385, 0.000051, -0.000139, 0.999997)
+			start = "j_bone11"
+			end = "j_bone13"
+		}
+		Locate {
+			name = "j_bone13"
+			coordinate = "bone11"
+			spos = ( 0.000004, 0.000008, 25.254200)
+			pos = ( 0.000008, -0.000008, 25.254192)
+		}
+		Bone {
+			name = "bone13"
+			coordinate = "bone11"
+			srot = ( 0.000860, -0.706878, -0.001072, 0.707335)
+			rot = ( -0.001511, -0.000202, 0.000258, 0.999999)
+			start = "j_bone13"
+			end = "site_bone13"
+		}
+		Locate {
+			name = "site_bone13"
+			coordinate = "bone13"
+			spos = ( -0.000013, 0.000031, 45.454720)
+			pos = ( -0.000013, 0.000031, 45.454720)
+		}
+		Bone {
+			name = "bone15"
+			coordinate = "bone"
+			srot = ( 0.000000, 0.712764, 0.701404, 0.000000)
+			rot = ( 0.022191, 0.000000, 0.000000, -0.999754)
+			start = "j_bone15"
+			end = "site_bone15"
+		}
+		Locate {
+			name = "site_bone15"
+			coordinate = "bone15"
+			spos = ( 0.000000, -0.000017, 111.859833)
+			pos = ( 0.000000, -0.000017, 111.859833)
+		}
+		Bone {
+			name = "bone01"
+			coordinate = "bone14"
+			srot = ( -0.695299, 0.000000, 0.000000, 0.718720)
+			rot = ( -0.718333, 0.000000, 0.000000, 0.695699)
+			start = "j_bone"
+			end = "site_bone01"
+		}
+		Locate {
+			name = "site_bone01"
+			coordinate = "bone01"
+			spos = ( 0.000000, 0.000008, 26.707970)
+			pos = ( 0.000000, 0.000008, 26.707970)
+		}
+		Locate {
+			name = "j_bone06"
+			coordinate = "bone01"
+			spos = ( -14.609500, 0.175098, 26.859047)
+			pos = ( -14.609500, 0.175098, 26.859047)
+		}
+		Locate {
+			name = "j_bone07"
+			coordinate = "bone01"
+			spos = ( 14.609500, 0.175098, 26.859047)
+			pos = ( 14.609500, 0.175098, 26.859047)
+		}
+		Bone {
+			name = "bone06"
+			coordinate = "bone01"
+			srot = ( -0.691330, 0.120376, 0.113360, 0.703365)
+			rot = ( 0.007824, -0.165336, 0.002223, 0.986204)
+			start = "j_bone06"
+			end = "j_bone02"
+		}
+		Locate {
+			name = "j_bone02"
+			coordinate = "bone06"
+			spos = ( 0.000015, 0.000023, 35.976433)
+			pos = ( 0.000019, 0.000019, 35.976448)
+		}
+		Bone {
+			name = "bone02"
+			coordinate = "bone06"
+			srot = ( -0.829172, 0.128881, 0.081119, 0.537851)
+			rot = ( 0.216224, 0.012009, -0.006799, 0.976246)
+			start = "j_bone02"
+			end = "j_bone04"
+		}
+		Locate {
+			name = "j_bone04"
+			coordinate = "bone02"
+			spos = ( 0.000000, 0.000010, 21.882421)
+			pos = ( -0.000004, 0.000011, 21.882423)
+		}
+		Bone {
+			name = "bone04"
+			coordinate = "bone02"
+			srot = ( -0.035366, -0.270492, 0.953677, -0.126825)
+			rot = ( -0.020671, -0.658754, -0.752066, 0.003612)
+			start = "j_bone04"
+			end = "site_bone04"
+		}
+		Locate {
+			name = "site_bone04"
+			coordinate = "bone04"
+			spos = ( 0.000000, -0.000036, 32.167522)
+			pos = ( 0.000000, -0.000036, 32.167522)
+		}
+		Bone {
+			name = "bone07"
+			coordinate = "bone01"
+			srot = ( -0.691330, -0.120376, -0.113360, 0.703365)
+			rot = ( 0.007824, 0.165336, -0.002223, 0.986204)
+			start = "j_bone07"
+			end = "j_bone03"
+		}
+		Locate {
+			name = "j_bone03"
+			coordinate = "bone07"
+			spos = ( -0.000015, 0.000023, 35.976433)
+			pos = ( -0.000019, 0.000019, 35.976448)
+		}
+		Bone {
+			name = "bone03"
+			coordinate = "bone07"
+			srot = ( -0.829172, -0.128881, -0.081119, 0.537851)
+			rot = ( 0.216224, -0.012009, 0.006799, 0.976246)
+			start = "j_bone03"
+			end = "j_bone05"
+		}
+		Locate {
+			name = "j_bone05"
+			coordinate = "bone03"
+			spos = ( 0.000000, 0.000010, 21.882421)
+			pos = ( 0.000004, 0.000011, 21.882423)
+		}
+		Bone {
+			name = "bone05"
+			coordinate = "bone03"
+			srot = ( 0.035366, -0.270492, 0.953677, 0.126825)
+			rot = ( 0.020671, -0.658754, -0.752066, -0.003612)
+			start = "j_bone05"
+			end = "site_bone05"
+		}
+		Locate {
+			name = "site_bone05"
+			coordinate = "bone05"
+			spos = ( 0.000000, -0.000036, 32.167522)
+			pos = ( 0.000000, -0.000036, 32.167522)
+		}
+	}
+	Polygon {
+		name = "head"
+		coordinate = "bone15"
+	}
+	Polygon {
+		name = "hear"
+		coordinate = "bone15"
+	}
+	Polygon {
+		name = "body"
+		coordinate = "null"
+		SphericalDeform {
+			name = "body"
+		}
+	}
+}
+Eof
